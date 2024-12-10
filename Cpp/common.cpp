@@ -43,7 +43,7 @@ vector<ld> derivative(vector<ld> v){
         return u;
 }
 
-ld evaluate(ld x, vector<ld> v){
+ld evaluate(vector<ld> v, ld x){
         ld res = 0; 
         int n = v.size();
         for(int i = 0; i < n; i++){
