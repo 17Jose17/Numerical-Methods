@@ -1,5 +1,29 @@
 #include "common.h"
 
+bool geq(ld a, ld b){
+    return a - b >= -eps;
+}
+
+bool leq(ld a, ld b){
+    return b - a >= -eps;
+}
+
+bool ge(ld a, ld b){
+    return a - b > eps;
+}
+
+bool le(ld a, ld b){
+    return b - a > eps;
+}
+
+bool eq(ld a, ld b){
+    return abs(a - b) <= eps;
+}
+
+bool neq(ld a, ld b){
+    return abs(a - b) > eps;
+}
+
 ld binaryExponential(ld b, ll p){
     ld res = 1;
     while(p){
