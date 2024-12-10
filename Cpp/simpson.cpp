@@ -1,4 +1,4 @@
-ld simpson(ld a, ld b, vector<ld> v){
+ld simpson(vector<ld> v, ld a, ld b){
         ld h = (b - a) / maxn;
         ld s = evaluate(v, a) + evaluate(v, b);
         for(int i = 1; i <= maxn - 1; i++){
