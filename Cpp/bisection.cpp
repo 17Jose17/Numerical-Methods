@@ -15,6 +15,7 @@ const ll INF = 1e18;
 const int maxn = 1e3;
 
 using ld = long double;
+
 const ld eps = 1e-9, inf = numeric_limits<ld>::max(), pi = acos(-1);
 bool eq(ld a, ld b){return abs(a-b) <= eps;}  //a == b
 
