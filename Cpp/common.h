@@ -18,10 +18,10 @@ const int maxn = 1e3;
 
 using ld = long double;
 
-ld evaluate(vector<ld> v, ld x);
-
 ld binaryExponentiation(ld b, ll p);
 
 vector<ld> derivative(vector<ld> v);
+
+ld evaluate(vector<ld> v, ld x);
 
 #endif
