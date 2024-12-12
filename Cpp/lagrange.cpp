@@ -25,5 +25,5 @@ ll lagrange(vector<ll> v, ll x){
                 else ans -= (((((((v[i - 1] * inv_fac[n - i]) % mod) * inv_fac[i - 1]) % mod) * preff[i - 1]) % mod) * suff[n - i]) % mod;
                 if(ans < 0) ans += mod;
         }
-        cout<<(ans % mod)<<'\n';
+        return (ans % mod);
 }
